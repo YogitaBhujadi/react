@@ -1,0 +1,49 @@
+.movie-card-container{
+    display: flex;
+    box-shadow:#454545;
+    justify-content:space-around;
+
+}
+
+.movie-card {
+    height: 400px;
+    width: 300px;
+    border: 3px solid rgb(87, 83, 83);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(246, 245, 248);
+}
+
+
+.img-poster {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.same-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    margin-top: -10px;
+}
+
+.rating{
+    color: blueviolet;
+}
+
+.sub-heading{
+    font-size: 12px;
+    margin-top: -20px;
+    color: #454545;
+}
+
+.time{
+    margin-top: -15px;
+    font-weight: bolder;
+    font-size: 12px;
+}
